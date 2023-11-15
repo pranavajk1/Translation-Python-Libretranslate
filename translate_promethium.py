@@ -2,11 +2,11 @@ import json
 import requests
 
 # Load the input JSON file
-with open('/Users/pranavajk/en.json', 'r', encoding='utf-8') as f:
+with open('/Users/pranavajk/Translation-Python-Libretranslate/en.json', 'r', encoding='utf-8') as f:
     input_data = json.load(f)
 
 # Define the API endpoint
-api_endpoint = 'http://0.0.0.0:8000/translate'
+api_endpoint = 'http://translate.pranavajk.live:5000/translate'
 
 official_en = '/Users/pranavajk/Code/Promethium/pm61datafrontend/public/translations/en.json'
 official_ja = '/Users/pranavajk/Code/Promethium/pm61datafrontend/public/translations/ja.json'
@@ -55,5 +55,5 @@ for key in input_data.keys():
         output_data[key] = result
 
 # Dump the output data to a JSON file
-with open('/Users/pranavajk/ja.json', 'w', encoding='utf-8') as f:
+with open('/Users/pranavajk/Translation-Python-Libretranslate/ja.json', 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False)
