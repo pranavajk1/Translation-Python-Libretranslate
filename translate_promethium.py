@@ -6,7 +6,7 @@ with open('/Users/pranavajk/Translation-Python-Libretranslate/en.json', 'r', enc
     input_data = json.load(f)
 
 # Define the API endpoint
-api_endpoint = 'http://translate.pranavajk.live:5000/translate'
+api_endpoint = 'https://translate.pranavajk.com/translate'
 
 official_en = '/Users/pranavajk/Code/Promethium/pm61datafrontend/public/translations/en.json'
 official_ja = '/Users/pranavajk/Code/Promethium/pm61datafrontend/public/translations/ja.json'
@@ -26,7 +26,8 @@ def translate(text):
     response = requests.post(api_endpoint, json={'q': text,
         'source': "en",
         'target': "ja",
-        'format': "text"})
+        'format': "text",
+        "api_key": "ddaf68b0-1195-4264-b840-f480eb0597e6"})
     
     # Get the result from the API response
     result = response.json()['translatedText']
