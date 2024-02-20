@@ -1,0 +1,1287 @@
+{
+	"POSTGRESQL": {
+		"detailsText": [
+			"Connecting to PostgreSQL is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select PostgreSQL and enter the information for your PostgreSQL environment.",
+			"PostgreSQL connection details can be case sensitive. Ensure that data is entered with the correct case for your PostgreSQL instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the PostgreSQL connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your PostgreSQL database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your PostgreSQL database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your PostgreSQL account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your PostgreSQL account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the PostgreSQL connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your PostgreSQL, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your PostgreSQL environment."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of PostgreSQL?",
+				"No. Your data stays in PostgreSQL and isn't moved to Promethium"
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in PostgreSQL or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The PostgreSQL connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"REDSHIFT": {
+		"detailsText": [
+			"The Redshift connector allows data to be cataloged, queried, transformed and to create tables in Redshift. This can be used to quickly and easily join data between different systems like Redshift and Hive, or between different Redshift instances.",
+			"Connecting to Redshift is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Redshift and enter the information for your Redshift.",
+			"Redshift connection details can be case-sensitive. Ensure that data is entered with the correct case for your Redshift."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Redshift connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your Redshift database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Redshift database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Redshift account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Redshift account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Redshift environment, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Redshift environment."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of Redshift?",
+				"No. Your data stays in Redshift and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in Redshift or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Redshift connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"TERADATA": {
+		"detailsText": [
+			"The Teradata connector allows data to be cataloged, queried, transformed and to create tables in Teradata. This can be used to quickly and easily join data between different systems like Teradata and Hive, or between different Teradata instances.",
+			"Connecting to Teradata is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Teradata and enter the information for your Teradata.",
+			"Teradata connection details can be case-sensitive. Ensure that data is entered with the correct case for your Teradata environment."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Teradata connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your Teradata database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Teradata database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Teradata account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Teradata account."
+			},
+			"databaseName": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the Teradata connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Teradata, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Teradata database."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of Teradata?",
+				"No. Your data stays in Teradata and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in Teradata or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Teradata connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"ATHENA": {
+		"detailsText": [
+			"The Athena connector allows data to be cataloged, queried, transformed and more in Athena. This can be used to quickly and easily join data between different systems like Athena and Hive, or between different Athena instances.",
+			"Connecting to Athena is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Athena and enter the information for your Athena environment.",
+			"Athena connection details can be case-sensitive. Ensure that data is entered with the correct case for your Athena instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Athena Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "AWS Access Key",
+				"description": "Unique Key for AWS Athena"
+			},
+			"port": {
+				"fieldName": "AWS Secret Key",
+				"description": "Unique Secret for AWS Athena."
+			},
+			"userName": {
+				"fieldName": "S3 Output Location",
+				"description": "Indicate the location where the query output files are downloaded. Athena will cache all query results in this location."
+			},
+			"password": {
+				"fieldName": "AWS Region",
+				"description": "Enter the region endpoint of your Athena instance. To find the region code from a region name."
+			},
+			"databaseName": {
+				"fieldName": "Schema Name",
+				"description": "Enter the schema containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the Athena connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Athena, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Athena instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Athena connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"SNOWFLAKE": {
+		"detailsText": [
+			"The Snowflake connector allows data to be cataloged, queried, transformed and to create tables in Snowflake Data Cloud. This can be used to quickly and easily join data between different systems like Snowflake and Hive, or between different Snowflake instances.",
+			"Connecting to Snowflake is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Snowflake and enter the information for your Snowflake environment.",
+			"Snowflake connection details can be case sensitive. Ensure that data is entered with the correct case for your Snowflake."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Snowflake connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Snowflake Account Name",
+				"description": "Enter the account name for your Snowflake account."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Snowflake account."
+			},
+			"password": {
+				"fieldName": "AWS Region",
+				"description": "Enter the password associated with your Snowflake account."
+			},
+			"port": {
+				"fieldName": "Warehouse",
+				"description": "Enter the warehouse containing the data you want to retrieve."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the Snowflake connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Snowflake, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Snowflake Data Cloud."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of Snowflake?",
+				"No. Your data stays in Snowflake and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in Snowflake or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Snowflake connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"ORACLE": {
+		"detailsText": [
+			"The Oracle connector allows data to be cataloged, queried, transformed and to create tables in Oracle. This can be used to quickly and easily join data between different systems like Oracle and Hive, or between different Oracle instances.",
+			"The Oracle connector is available for all Promethium editions, including Free, Professional, Premium and Enterprise.",
+			"Connecting to Oracle is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Oracle and enter the information for your Oracle environment.",
+			"Oracle connection details can be case-sensitive. Ensure that data is entered with the correct case for your Oracle instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Oracle connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your Oracle database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Oracle database."
+			},
+			"SID": {
+				"fieldName": "SID",
+				"description": "A unique name that uniquely identifies the database instance."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Oracle account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Oracle account."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the Oracle connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Oracle, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Oracle database."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of Oracle?",
+				"No. Your data stays in Oracle and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in Oracle or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Oracle connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"PRESTO": {
+		"detailsText": [
+			"The connector for Trino allows data sources connected to Trino to be cataloged, queried, transformed and more. This can be used to quickly and easily join data between different systems.",
+			"Note: PrestoSQL was renamed Trino in December 2020.",
+			"Connecting to Trino is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Presto and enter the information for your Trino environment.",
+			"Trino connection details can be case sensitive. Ensure that data is entered with the correct case for your Trino environment."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the PrestoSQL Trino connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your PrestoSQL Trino database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your PrestoSQL Trino."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your PrestoSQL Trino account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your PostgreSQL account."
+			},
+			"catalogName": {
+				"fieldName": "Catalog Name",
+				"description": "Enter the PrestoSQL Trino catalog name."
+			},
+			"schemaName": {
+				"fieldName": "Schema Name",
+				"description": "Enter the PrestoSQL Trino schema name."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Trino environment, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Trino environment."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The PrestoSQL Trino connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"SQLSERVER": {
+		"detailsText": [
+			"The MS SQL Server connector allows data to be cataloged, queried, transformed and to create tables in MS SQL Server. This can be used to quickly and easily join data between different systems like MS SQL Server and Hive, or between different MS SQL Server instances.",
+			"Connecting to MS SQL Server is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select MS SQL Server and enter the information for your MS SQL Server.",
+			"MS SQL Server connection details can be case-sensitive. Ensure that data is entered with the correct case for your MS SQL Server."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the MS SQL Server connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your MS SQL Server database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your MS SQL Server database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your MS SQL Server account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your MS SQL Server account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the MS SQL Server connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your MS SQL Server, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your MS SQL Server."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of MS SQL Server?",
+				"No. Your data stays in MS SQL Server and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in MS SQL Server or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The MS SQL Server connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"IMPALA": {
+		"detailsText": [
+			"The Impala connector allows data to be cataloged, queried and transformed. This can be used to quickly and easily join data between different systems like Impala and HDFS, or between different Impala instances.",
+			"Connecting to Impala is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Impala, select New connection, and enter the information for your Impala instance.",
+			"Impala connection details can be case-sensitive. Ensure that data is entered with the correct case for your Impala environment."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Impala connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "The name of the server where your data is located."
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Impala."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Impala account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Impala account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Use HTTP Transport",
+				"description": "Select this checkbox to use HTTP for your Impala connection."
+			},
+			"SSL": {
+				"fieldName": "Use secure sockets layer (SSL)",
+				"description": "Select this checkbox to connect using SSL."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Impala environment, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Impala data source."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Impala connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"GREENPLUM": {
+		"detailsText": [
+			"The Greenplum connector allows data to be cataloged, queried, transformed and to create tables in Greenplum. This can be used to quickly and easily join data between different systems like Greenplum and Hive, or between different Greenplum instances.",
+			"Connecting to Greenplum is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Greenplum and enter the information for your Greenplum.",
+			"Greenplum connection details can be case-sensitive. Ensure that data is entered with the correct case for your Greenplum environment."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Greenplum connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name for your Greenplum database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Greenplum database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Greenplum account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Greenplum account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			},
+			"dataSourceDomain": {
+				"fieldName": "Data Source Domain",
+				"description": "Optional. Categorize the Greenplum connection. For example, Marketing."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Greenplum, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Greenplum database."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied out of Greenplum?",
+				"No. Your data stays in Greenplum and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table in Greenplum or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Greenplum connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"S3": {
+		"detailsText": [
+			"Promethium needs read access to the S3 bucket from Intelligent Edge (IE). This should be setup and tested after installing IE in your Cloud. Contact us for more information or assistance.",
+			"Connecting to S3 is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select S3 and enter the information for your AWS environment.",
+			"Trino connection details can be case sensitive. Ensure that data is entered with the correct case for your Trino environment."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the AWS S3 connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "S3 path",
+				"description": "Enter the path to your s3 bucket. "
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your S3 environment, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your S3 environment."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table or as a dbt model."
+			]
+		]
+	},
+	"ADLS": {
+		"detailsText": [
+			"The ADLS connector allows data to be cataloged, queried, transformed and more in ADLS. This can be used to quickly and easily join data between different systems like ADLS and Hive, or between different ADLS instances.",
+			"Connecting to ADLS is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select ADLS and enter the information for your ADLS environment.",
+			"ADLS connection details can be case-sensitive. Ensure that data is entered with the correct case for your ADLS instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the ADLS Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"accountKey": {
+				"fieldName": "Account Key",
+				"description": "Account key associated with your ADLS  account."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your ADLS, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your ADLS instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The ADLS connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"BIGQUERY": {
+		"detailsText": [
+			"The BigQuery connector allows data to be cataloged, queried, transformed and more in BigQuery. This can be used to quickly and easily join data between different systems like BigQuery and Hive, or between different BigQuery instances.",
+			"Connecting to BigQuery is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select BigQuery and enter the information for your BigQuery environment.",
+			"BigQuery connection details can be case-sensitive. Ensure that data is entered with the correct case for your BigQuery instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the BigQuery Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"credentialsKey": {
+				"fieldName": "Credentials Key JSON",
+				"description": "Enter the credentials associated with your BigQuery account."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your BigQuery, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your BigQuery instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, as a table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The BigQuery connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"DB2": {
+		"detailsText": [
+			"The DB2 connector allows data to be cataloged, queried, transformed and more in DB2. This can be used to quickly and easily join data between different systems like DB2 and Hive, or between different DB2 instances.",
+			"Connecting to DB2 is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select DB2 and enter the information for your DB2 environment.",
+			"DB2 connection details can be case-sensitive. Ensure that data is entered with the correct case for your DB2 instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the DB2 connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the hostname for your DB2 database. For example: db.company.com"
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your DB2."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your DB2 account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your DB2 account."
+			},
+			"version": {
+				"fieldName": "DB2 Version",
+				"description": "Enter the version associated with your DB2 account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database containing the data you want to retrieve."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your DB2, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your DB2 instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The DB2 connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"DATABRICKS": {
+		"detailsText": [
+			"The Databricks connector allows data to be cataloged, queried, transformed and more in Databricks. This can be used to quickly and easily join data between different systems like Databricks and Hive, or between different Databricks instances.",
+			"Connecting to Databricks is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Databricks and enter the information for your Databricks environment.",
+			"Databricks connection details can be case-sensitive. Ensure that data is entered with the correct case for your Databricks instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Databricks Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "JDBC URL",
+				"description": "URL associated with the Databricks database to connect to."
+			},
+			"httpPath": {
+				"fieldName": "Http Path",
+				"description": "Enter the http containing the data you want to retrieve."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database name containing the data you want to retrieve."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Databricks, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Databricks instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Databricks connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"GENERICJDBC": {
+		"detailsText": [
+			"The GenericJDBC connector allows data to be cataloged, queried, transformed and more in GenericJDBC. This can be used to quickly and easily join data between different systems like GenericJDBC and Hive, or between different GenericJDBC instances.",
+			"Connecting to GenericJDBC is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select GenericJDBC and enter the information for your GenericJDBC environment.",
+			"GenericJDBC connection details can be case-sensitive. Ensure that data is entered with the correct case for your GenericJDBC instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the GenericJDBC Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "JDBC URL",
+				"description": "Credentials associated with your GenericJDBC account."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your GenericJDBC account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your GenericJDBC account."
+			},
+			"filePath": {
+				"fieldName": "Additional Credential File path",
+				"description": "Enter the file path associated with your GenericJDBC account."
+			},
+			"databaseName": {
+				"fieldName": "Driver class Name",
+				"description": "Enter the driver name associated with your GenericJDBC account."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your GenericJDBC, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your GenericJDBC instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The GenericJDBC connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"HIVE": {
+		"detailsText": [
+			"The Hive connector allows data to be cataloged, queried, transformed and more in Hive. This can be used to quickly and easily join data between different systems like Hive, or between different Hive instances.",
+			"Connecting to Hive is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Hive and enter the information for your Hive environment.",
+			"Hive connection details can be case-sensitive. Ensure that data is entered with the correct case for your Hive instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Hive connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Credentials associated with your Hive account."
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number for your Hive database."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Hive account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Hive account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Hive, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Hive instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Hive connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"ICEBERG": {
+		"detailsText": [
+			"The Iceberg connector allows data to be cataloged, queried, transformed and more in Iceberg. This can be used to quickly and easily join data between different systems like Iceberg and Hive, or between different Iceberg instances.",
+			"Connecting to Iceberg is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Iceberg and enter the information for your Iceberg environment.",
+			"Iceberg connection details can be case-sensitive. Ensure that data is entered with the correct case for your Iceberg instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Iceberg Connection a unique name for easy identification."
+			},
+			"metastoreType": {
+				"fieldName": "Metastore Type",
+				"description": "glue"
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Iceberg account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Iceberg account."
+			},
+			"region": {
+				"fieldName": "Glue Region",
+				"description": "Enter the region associated with your Iceberg account."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Iceberg, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Iceberg instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Iceberg connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"MongoDB": {
+		"detailsText": [
+			"The MongoDB connector allows data to be cataloged, queried, transformed and more in MongoDB. This can be used to quickly and easily join data between different systems like MongoDB and Hive, or between different MongoDB instances.",
+			"Connecting to MongoDB is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select MongoDB and enter the information for your MongoDB environment.",
+			"MongoDB connection details can be case-sensitive. Ensure that data is entered with the correct case for your MongoDB instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the MongoDB Connection a unique name for easy identification."
+			},
+			"path": {
+				"fieldName": "MongoDB JDBC URL",
+				"description": "Enter the URL to the MongoDB database you want to connect to."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your MongoDB account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your MongoDB account."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your MongoDB, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your MongoDB instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The MongoDB connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"MYSQL": {
+		"detailsText": [
+			"The MySQL connector allows data to be cataloged, queried, transformed and more in MySQL. This can be used to quickly and easily join data between different systems like MySQL and Hive, or between different MySQL instances.",
+			"Connecting to MySQL is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select MySQL and enter the information for your MySQL environment.", 
+			"MySQL connection details can be case-sensitive. Ensure that data is entered with the correct case for your MySQL instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the MySQL Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name associated with your MySQL account."
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "3306"
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your MySQL account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your MySQL account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the database name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your MySQL, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your MySQL instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The MySQL connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"NETEZZA": {
+		"detailsText": [
+			"The Netezza connector allows data to be cataloged, queried, transformed and more in Netezza. This can be used to quickly and easily join data between different systems like Netezza and Hive, or between different Netezza instances.",
+			"Connecting to Netezza is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select Netezza and enter the information for your Netezza environment.",
+			"Netezza connection details can be case-sensitive. Ensure that data is entered with the correct case for your Netezza instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the Netezza Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Host Name",
+				"description": "Enter the host name associated with your Netezza account."
+			},
+			"port": {
+				"fieldName": "DB Port",
+				"description": "Enter the port number you want to access."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your Netezza account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your Netezza account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the Netezza database name you want to connect to."
+			},
+			"schema": {
+				"fieldName": "Schema",
+				"description": "Enter the Netezza schema name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your Netezza, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your Netezza instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The Netezza connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"SAPHANA": {
+		"detailsText": [
+			"The SAPHANA connector allows data to be cataloged, queried, transformed and more in SAPHANA. This can be used to quickly and easily join data between different systems like SAPHANA and Hive, or between different SAPHANA instances.",
+			"Connecting to SAPHANA is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select SAPHANA and enter the information for your SAPHANA environment.",
+			"SAPHANA connection details can be case-sensitive. Ensure that data is entered with the correct case for your SAPHANA instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the SAPHANA Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Connection URL",
+				"description": "Enter the URL to the SAPHANA database you want to connect to."
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your SAPHANA account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your SAPHANA account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the SAPHANA database name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your SAPHANA, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your SAPHANA instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The SAPHANA connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"SALESFORCE": {
+		"detailsText": [
+			"The SalesForce connector allows data to be cataloged, queried, transformed and more in SalesForce. This can be used to quickly and easily join data between different systems like SalesForce and Hive, or between different SalesForce instances.",
+			"Connecting to SalesForce is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select SalesForce and enter the information for your SalesForce environment.",
+			"SalesForce connection details can be case-sensitive. Ensure that data is entered with the correct case for your SalesForce instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the SalesForce Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Salesforce Host",
+				"description": "jdbc:dbschema:salesforce://tables=all"
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the username associated with your SalesForce account."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your SalesForce account."
+			},
+			"token": {
+				"fieldName": "Token",
+				"description": "Enter the token key associated with your SalesForce account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the SalesForce database name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your SalesForce, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your SalesForce instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The SalesForce connector is designed for all-sized Datasets."
+			]
+		]
+	},
+	"Servicenow": {
+		"detailsText": [
+			"The ServiceNow connector allows data to be cataloged, queried, transformed and more in SalesForce. This can be used to quickly and easily join data between different systems like SalesForce and Hive, or between different SalesForce instances.",
+			"Connecting to ServiceNow is fast and easy. Simply click Data Sources from the menu, then click + New Data Source. Select ServiceNow and enter the information for your ServiceNow environment.",
+			"ServiceNow connection details can be case-sensitive. Ensure that data is entered with the correct case for your ServiceNow instance."
+		],
+		"tableData": {
+			"name": {
+				"fieldName": "Data Source Name",
+				"description": "Give the ServiceNow Connection a unique name for easy identification."
+			},
+			"description": {
+				"fieldName": "Description",
+				"description": "Optional. A meaningful description for this connection."
+			},
+			"host": {
+				"fieldName": "Connection URL",
+				"description": "jdbc:dbschema:salesforce://tables=all"
+			},
+			"userName": {
+				"fieldName": "User Name",
+				"description": "Enter the URL to the ServiceNow database you want to connect to."
+			},
+			"password": {
+				"fieldName": "Password",
+				"description": "Enter the password associated with your SalesForce account."
+			},
+			"databaseName": {
+				"fieldName": "Database Name",
+				"description": "Enter the ServiceNow database name you want to connect to."
+			}
+		},
+		"afterTableDetails": [
+			"Click the Connect button then select Schemas. After successful connection and schema selection Promethium will automatically crawl and catalog data in your ServiceNow, then make the data easily searchable and usable.",
+			"Click Data Explorer from the menu and begin exploring the data in your ServiceNow instance."
+		],
+		"FAQ": [
+			[
+				"Is my data moved or copied?",
+				"No. Your data stays where it is and isn't moved to Promethium."
+			],
+			[
+				"What options are available for publishing datasets?",
+				"Datasets can be published as a view, table or as a dbt model."
+			],
+			[
+				"Is this a Production-level connector?",
+				"Yes. The ServiceNow connector is designed for all-sized Datasets."
+			]
+		]
+	}
+}

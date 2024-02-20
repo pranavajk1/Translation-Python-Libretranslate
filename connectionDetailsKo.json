@@ -1,0 +1,1284 @@
+{
+  "POSTGRESQL": {
+    "detailsText": [
+      "PostgreSQL에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. PostgreSQL을 선택하고 PostgreSQL 환경에 대한 정보를 입력하십시오.",
+      "PostgreSQL 연결 세부 사항은 민감한 경우 일 수 있습니다. 데이터가 PostgreSQL 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "PostgreSQL 연결은 쉽게 식별 할 수있는 고유 한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "PostgreSQL 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "PostgreSQL 데이터베이스의 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "PostgreSQL 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "PostgreSQL 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. PostgreSQL 연결을 분류합니다. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 PostgreSQL에서 자동으로 크롤링 및 카탈로그 데이터를 처리 한 다음 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 PostgreSQL 환경에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이전되거나 PostgreSQL에서 복사되었습니까?",
+        "아니요. PostgreSQL에서 데이터가 유지되고 Promethium으로 이동되지 않습니다"
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 PostgreSQL의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. PostgreSQL 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "REDSHIFT": {
+    "detailsText": [
+      "Redshift 커넥터는 데이터가 카탈로그, queried, 변환 및 Redshift의 테이블을 만들 수 있습니다. Redshift와 Hive, 또는 Redshift 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "Redshift에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Redshift를 선택하고 Redshift에 대한 정보를 입력하십시오.",
+      "Redshift 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Redshift의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Redshift 연결을 쉽게 식별 할 수있는 독특한 이름을 제공합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "Redshift 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "Redshift 데이터베이스의 포트 번호를 입력하십시오."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Redshift 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Redshift 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Redshift 환경에서 자동으로 크롤링 및 카탈로그 데이터를 처리 한 다음 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Redshift 환경에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 Redshift에서 복사되었습니까?",
+        "아니. 데이터는 Redshift에 머물고 Promethium로 이동하지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 Redshift의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Redshift 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "TERADATA": {
+    "detailsText": [
+      "Teradata 연결관은 Teradata에 있는 테이블을 창조하기 위하여 카탈로그로, queried, 변형되고 창조하기 위하여 자료를 허용합니다. Teradata 및 Hive와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다. 또는 다른 Teradata 인스턴스 사이에.",
+      "Teradata에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Teradata를 선택하고 Teradata에 대한 정보를 입력하십시오.",
+      "Teradata 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Teradata 환경에 맞는 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Teradata 연결은 쉽게 식별 할 수있는 독특한 이름을 제공합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "Teradata 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "Teradata 데이터베이스의 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Teradata 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Teradata 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. Teradata 연결 분류. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Teradata에서 자동으로 크롤링 및 카탈로그 데이터를 처리 한 다음 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Teradata 데이터베이스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 Teradata에서 복사되었습니까?",
+        "아니요. Teradata에서 데이터가 유지되며 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 Teradata의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Teradata 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "ATHENA": {
+    "detailsText": [
+      "Athena 커넥터는 Athena에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. Athena와 Hive, 또는 다른 Athena 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "Athena에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Athena를 선택하고 Athena 환경에 대한 정보를 입력하십시오.",
+      "Athena 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Athena 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Athena Connection은 쉽게 식별 할 수있는 독특한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "AWS 액세스 키",
+        "description": "AWS Athena를 위한 유일한 열쇠"
+      },
+      "port": {
+        "fieldName": "AWS 비밀 열쇠",
+        "description": "AWS Athena를 위한 유일한 비밀."
+      },
+      "userName": {
+        "fieldName": "S3 출력 위치",
+        "description": "쿼리 출력 파일이 다운로드되는 위치를 나타냅니다. Athena는이 위치에 모든 쿼리 결과를 캐시합니다."
+      },
+      "password": {
+        "fieldName": "AWS 지역",
+        "description": "Athena 인스턴스의 지역 엔드포인트를 입력하십시오. 지역 이름에서 지역 코드를 찾을 수 있습니다."
+      },
+      "databaseName": {
+        "fieldName": "Schema 이름",
+        "description": "검색 결과를 찾을 수 없습니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. Athena 연결 분류. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Athena에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Athena 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Athena 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "SNOWFLAKE": {
+    "detailsText": [
+      "Snowflake 커넥터는 데이터가 카탈로그, queried, 변환 및 Snowflake Data Cloud의 테이블을 만들 수 있습니다. Snowflake 및 Hive와 같은 다른 시스템간에 데이터를 빠르고 쉽게 결합 할 수 있습니다. 또는 다른 Snowflake 인스턴스 사이에.",
+      "Snowflake에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Snowflake를 선택하고 Snowflake 환경에 대한 정보를 입력하십시오.",
+      "Snowflake 연결 세부사항은 과민한 케이스일 수 있습니다. 데이터가 Snowflake의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Snowflake 연결을 쉽게 식별 할 수있는 독특한 이름을 제공합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "Snowflake 계정 이름",
+        "description": "Snowflake 계정의 계정 이름을 입력하십시오."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Snowflake 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "AWS 지역",
+        "description": "Snowflake 계정과 관련된 암호를 입력하십시오."
+      },
+      "port": {
+        "fieldName": "회사 소개",
+        "description": "검색을 원하는 데이터를 포함하는 창고를 입력합니다."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. Snowflake 연결 분류. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 Snowflake의 자동 크롤링 및 카탈로그 데이터가 쉽게 검색 할 수 있도록합니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Snowflake Data Cloud의 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 Snowflake에서 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Snowflake에 머물며 Promethium으로 이동하지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 Snowflake의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Snowflake 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "ORACLE": {
+    "detailsText": [
+      "Oracle 커넥터는 데이터가 카탈로그, queried, 변환 및 Oracle 테이블을 만들 수 있습니다. Oracle 및 Hive, 또는 다른 Oracle 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "Oracle 커넥터는 Free, Professional, Premium 및 Enterprise를 포함한 모든 Promethium 판에 사용할 수 있습니다.",
+      "Oracle에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Oracle을 선택하고 Oracle 환경에 대한 정보를 입력하십시오.",
+      "Oracle 연결 세부사항은 case-sensitive일 수 있습니다. Oracle 인스턴스의 올바른 경우로 데이터가 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Oracle 연결을 쉽게 식별 할 수 있습니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "Oracle 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "Oracle 데이터베이스의 포트 번호를 입력합니다."
+      },
+      "SID": {
+        "fieldName": "사이트맵",
+        "description": "고유하게 데이터베이스 인스턴스를 식별하는 독특한 이름."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Oracle 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Oracle 계정과 관련된 암호를 입력하십시오."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. Oracle 연결 분류. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 오라클에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Oracle 데이터베이스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 오라클에서 이동하거나 복사합니까?",
+        "아니요. Oracle에서 데이터가 유지되고 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 Oracle의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Oracle 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "PRESTO": {
+    "detailsText": [
+      "Trino 용 커넥터는 Trino에 연결된 데이터 소스를 카탈로그, queried, 변형 및 더 많은 것을 허용합니다. 이것은 빠르고 쉽게 다른 체계 사이에서 자료를 결합하기 위하여 사용될 수 있습니다.",
+      "참고 : PrestoSQL은 2020 년 12 월 Trino로 변경되었습니다.",
+      "Trino에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Presto를 선택하고 Trino 환경에 대한 정보를 입력하십시오.",
+      "Trino 연결 세부사항은 민감할 수 있습니다. 데이터가 Trino 환경에 맞는 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "PrestoSQL 받기 Trino는 쉽게 식별 할 수있는 독특한 이름을 연결."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "PrestoSQL Trino 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "PrestoSQL Trino의 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "PrestoSQL Trino 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "PostgreSQL 계정과 관련된 암호를 입력하십시오."
+      },
+      "catalogName": {
+        "fieldName": "카탈로그 이름",
+        "description": "PrestoSQL을 입력하십시오. Trino 카탈로그 이름."
+      },
+      "schemaName": {
+        "fieldName": "Schema 이름",
+        "description": "PrestoSQL을 입력하십시오. Trino schema 이름."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Trino 환경에서 자동 크롤링 및 카탈로그 데이터를 처리 한 후 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 Trino 환경에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. PrestoSQL Trino 커넥터는 모든 크기의 데이터 세트를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "SQLSERVER": {
+    "detailsText": [
+      "MS SQL을 서버 커넥터는 데이터가 카탈로그, queried, 변환 및 MS SQL Server에서 테이블을 만들 수 있습니다. MS SQL Server 및 Hive, 또는 다른 MS SQL Server 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "MS SQL Server에 연결하면 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. MS SQL Server를 선택하고 MS SQL Server에 대한 정보를 입력하십시오.",
+      "MS SQL 지원 서버 연결 세부사항은 case-sensitive일 수 있습니다. 데이터가 MS SQL Server의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "MS SQL 제공 Server 연결은 쉽게 식별할 수 있는 고유한 이름입니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "MS SQL Server 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "MS SQL Server 데이터베이스의 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "MS SQL Server 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "MS SQL Server 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. MS SQL Server 연결을 분류합니다. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 MS SQL Server에서 자동으로 크롤링 및 카탈로그 데이터를 처리 한 다음 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 MS SQL Server에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 MS SQL Server에서 복사되었습니까?",
+        "아니. 귀하의 데이터는 MS SQL Server에 머물고 Promethium로 이동하지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 MS SQL Server의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. MS SQL Server 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "IMPALA": {
+    "detailsText": [
+      "Impala 커넥터는 카탈로그, queried 및 변환 할 수 있습니다. 이것은 impala와 HDFS 같이 다른 체계 사이 자료를 빠르고 쉽게 결합하기 위하여 사용될 수 있습니다, 또는 다른 impala 인스턴스 사이.",
+      "Impala에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. 선택 Impala, 선택 새로운 연결 및 Impala 인스턴스에 대한 정보를 입력합니다.",
+      "Impala 연결 세부사항은 case 과민한 일 수 있습니다. 데이터가 임팔라 환경에 맞는 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Impala 연결을 쉽게 식별 할 수 있습니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "데이터가 있는 서버의 이름."
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "당신의 Impala를 위한 항구 수를 입력하십시오."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Impala 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Impala 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "HTTP 전송 사용",
+        "description": "이 체크 박스를 선택하여 임팔라 연결을 위해 HTTP를 사용합니다."
+      },
+      "SSL": {
+        "fieldName": "안전한 소켓 층 (SSL)를 사용하십시오",
+        "description": "SSL을 사용하여 연결하려면 이 체크 박스를 선택하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 자동 충돌 및 카탈로그 데이터를 Impala 환경에서 쉽게 검색 할 수 있도록합니다.",
+      "Data 바로가기 메뉴에서 탐색하고 임팔라 데이터 소스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Impala 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "GREENPLUM": {
+    "detailsText": [
+      "Greenplum 커넥터는 데이터가 카탈로그, queried, 변환 및 Greenplum의 테이블을 만들 수 있습니다. Greenplum 및 Hive, 또는 다른 Greenplum 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "Greenplum에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Greenplum을 선택하고 Greenplum에 대한 정보를 입력하십시오.",
+      "Greenplum 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Greenplum 환경에 맞는 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Greenplum 연결을 쉽게 식별 할 수있는 독특한 이름을 제공합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "Greenplum 데이터베이스의 호스트 이름을 입력하십시오. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "Greenplum 데이터베이스의 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Greenplum 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Greenplum 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      },
+      "dataSourceDomain": {
+        "fieldName": "데이터 소스 도메인",
+        "description": "옵션. Greenplum 연결 분류. 예를 들어, 마케팅."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Greenplum에서 자동으로 크롤링 및 카탈로그 데이터를 처리 한 다음 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 Greenplum 데이터베이스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 Greenplum에서 복사되었습니까?",
+        "아니. 당신의 자료는 Greenplum에 체재하고 Promethium로 이동하지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 Greenplum의 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Greenplum 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "S3": {
+    "detailsText": [
+      "Promethium은 지능형 가장자리 (IE)에서 S3 버킷에 액세스해야합니다. 이것은 클라우드에서 IE를 설치 한 후 설정 및 테스트해야합니다. 더 많은 정보 또는 도움을 원하시면 저희에게 연락하십시오.",
+      "S3에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. S3를 선택하고 AWS 환경에 대한 정보를 입력하십시오.",
+      "Trino 연결 세부사항은 민감할 수 있습니다. 데이터가 Trino 환경에 맞는 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "AWS S3 연결을 쉽게 식별할 수 있는 고유한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "S3 경로",
+        "description": "당신의 s3 물통에 길을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하고 스키마를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 S3 환경에서 자동 크롤링 및 카탈로그 데이터를 처리 한 후 쉽게 검색 할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 S3 환경에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ]
+    ]
+  },
+  "ADLS": {
+    "detailsText": [
+      "ADLS 커넥터는 ADLS에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 ADLS와 Hive, 또는 다른 ADLS 인스턴스와 같은 다른 시스템간에 데이터를 신속하게 결합 할 수 있습니다.",
+      "ADLS에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. ADLS를 선택하고 ADLS 환경에 대한 정보를 입력하십시오.",
+      "ADLS 연결 세부사항은 case 과민한 일 수 있습니다. 데이터가 ADLS 인스턴스에 대한 올바른 사례로 입력되도록 합니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "ADLS 연결은 쉽게 식별 할 수있는 독특한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "accountKey": {
+        "fieldName": "계정 키",
+        "description": "ADLS 계정과 관련된 계정 키."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 ADLS에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 ADLS 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. ADLS 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "BIGQUERY": {
+    "detailsText": [
+      "BigQuery 커넥터는 BigQuery에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. BigQuery와 Hive, 또는 다른 BigQuery 인스턴스와 같은 다른 시스템간에 데이터를 빠르게 결합 할 수 있습니다.",
+      "BigQuery에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. BigQuery를 선택하고 BigQuery 환경에 대한 정보를 입력하십시오.",
+      "BigQuery 연결 세부사항은 case-sensitive일 수 있습니다. BigQuery 인스턴스에 대한 올바른 사례로 데이터가 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "BigQuery 커넥션을 쉽게 식별할 수 있는 독특한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "credentialsKey": {
+        "fieldName": "Credentials 열쇠 구글 맵",
+        "description": "BigQuery 계정과 관련된 자격 증명을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 BigQuery에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 BigQuery 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 테이블 또는 dbt 모델로 볼 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. BigQuery 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "DB2": {
+    "detailsText": [
+      "DB2 커넥터는 DB2에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. DB2 및 Hive, 또는 다른 DB2 인스턴스와 같은 다른 시스템간에 데이터를 빠르게 결합할 수 있습니다.",
+      "DB2에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. DB2를 선택하고 DB2 환경에 대한 정보를 입력합니다.",
+      "DB2 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 DB2 인스턴스의 올바른 경우로 입력되도록 합니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "DB2 연결을 쉽게 식별 할 수 있습니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "DB2 데이터베이스의 호스트명을 입력합니다. 예를 들면: db.company.com"
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "DB2 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "DB2 계정과 관련된 사용자 이름을 입력합니다."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "DB2 계정과 관련된 암호를 입력합니다."
+      },
+      "version": {
+        "fieldName": "DB2 버전",
+        "description": "DB2 계정과 관련된 버전을 입력합니다."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스를 입력합니다."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 DB2에서 자동으로 크롤링 및 카탈로그 데이터를 쉽게 검색 할 수 있습니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 DB2 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. DB2 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "DATABRICKS": {
+    "detailsText": [
+      "Databricks 커넥터는 Databricks에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. Databricks와 Hive, 또는 다른 Databricks 인스턴스와 같은 다른 시스템간에 데이터를 빠르게 참여할 수 있습니다.",
+      "Databricks에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Databricks를 선택하고 Databricks 환경에 대한 정보를 입력하십시오.",
+      "Databricks 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Databricks 인스턴스에 대한 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Databricks Connection은 쉽게 식별할 수 있는 고유한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "JDBC URL",
+        "description": "Databricks 데이터베이스와 관련된 URL을 연결합니다."
+      },
+      "httpPath": {
+        "fieldName": "Http 경로",
+        "description": "검색하려는 데이터를 포함하는 http를 입력합니다."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "검색할 데이터를 포함하는 데이터베이스 이름을 입력합니다."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 Databricks의 자동 크롤링 및 카탈로그 데이터가 쉽게 검색 할 수 있도록합니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 Databricks 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Databricks 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "GENERICJDBC": {
+    "detailsText": [
+      "GenericJDBC 커넥터는 GenericJDBC에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. GenericJDBC와 Hive, 또는 다른 GenericJDBC 인스턴스와 같은 다른 시스템간에 데이터를 빠르게 참여할 수 있습니다.",
+      "GenericJDBC에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. GenericJDBC를 선택하고 GenericJDBC 환경에 대한 정보를 입력하십시오.",
+      "GenericJDBC 연결 세부사항은 case-sensitive일 수 있습니다. 데이터가 GenericJDBC 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "GenericJDBC 소개 쉽게 식별 할 수있는 독특한 이름을 연결."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "JDBC URL",
+        "description": "당신의 GenericJDBC 계정과 관련된 Credentials."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "GenericJDBC 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "GenericJDBC 계정과 관련된 암호를 입력하십시오."
+      },
+      "filePath": {
+        "fieldName": "추가 Credential 파일 경로",
+        "description": "GenericJDBC 계정과 관련된 파일 경로를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "운전사 종류 이름",
+        "description": "GenericJDBC 계정과 관련된 드라이버 이름을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 GenericJDBC에서 자동으로 크롤링 및 카탈로그 데이터를 처리하여 쉽게 검색할 수 있으며 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 GenericJDBC 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. GenericJDBC 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "HIVE": {
+    "detailsText": [
+      "Hive 커넥터는 Hive에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 빠르고 쉽게 Hive, 또는 다른 Hive 인스턴스와 같은 다른 시스템간에 데이터를 결합 할 수 있습니다.",
+      "Hive에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Hive를 선택하고 Hive 환경에 대한 정보를 입력하십시오.",
+      "Hive 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Hive 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Hive 연결을 쉽게 식별 할 수 있습니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "당신의 친구와 관련된 Credentials Hive 계정."
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "포트 번호를 입력하세요 Hive 데이터베이스."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "사용자 이름 입력 Hive 계정."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "비밀번호 입력 Hive 계정."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "연결하려는 데이터베이스 이름을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 자동 크롤러 및 카탈로그 데이터를 Hive는, 그 후에 자료를 쉽게 검색할 수 있고 usable 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 Hive 인스턴스의 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Hive 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "ICEBERG": {
+    "detailsText": [
+      "Iceberg 커넥터는 Iceberg에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 빠르고 쉽게 Iceberg와 Hive, 또는 다른 Iceberg 인스턴스와 같은 다른 시스템간에 데이터를 결합 할 수 있습니다.",
+      "Iceberg에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Iceberg를 선택하고 Iceberg 환경에 대한 정보를 입력하십시오.",
+      "Iceberg 연결 세부사항은 case 과민한 일 수 있습니다. 데이터가 Iceberg 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Iceberg Connection은 쉽게 식별 할 수있는 독특한 이름을 부여합니다."
+      },
+      "metastoreType": {
+        "fieldName": "Metastore 유형",
+        "description": "기타 제품"
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Iceberg 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Iceberg 계정과 관련된 암호를 입력하십시오."
+      },
+      "region": {
+        "fieldName": "접착제 지역",
+        "description": "Iceberg 계정과 관련된 지역을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium 후 자동으로 귀하의 Iceberg에서 데이터를 수집, 다음 데이터를 쉽게 검색 할 수 있습니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 Iceberg 인스턴스의 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Iceberg 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "MongoDB": {
+    "detailsText": [
+      "MongoDB 커넥터는 MongoDB에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 빠르고 쉽게 MongoDB 및 Hive와 같은 다른 시스템간에 데이터를 결합 할 수 있습니다, 또는 다른 MongoDB 인스턴스 사이.",
+      "Mongo에 연결 DB는 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. 선택 Mongo DB 및 MongoDB 환경에 대한 정보를 입력합니다.",
+      "MongoDB 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 MongoDB 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "MongoDB에 대해 쉽게 식별 할 수있는 독특한 이름을 연결."
+      },
+      "path": {
+        "fieldName": "MongoDB의 JDBC URL",
+        "description": "Mongo에 URL을 입력하십시오. DB 데이터베이스에 연결할 수 있습니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "MongoDB 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "MongoDB 계정과 관련된 암호를 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 MongoDB에서 자동으로 크롤링 및 카탈로그 데이터가 쉽게 검색 할 수 있도록합니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 MongoDB 인스턴스의 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. MongoDB 연결관은 모든 크기의 Datasets를 위해 디자인됩니다."
+      ]
+    ]
+  },
+  "MYSQL": {
+    "detailsText": [
+      "MySQL 커넥터는 MySQL에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 빠르고 쉽게 MySQL과 Hive, 또는 다른 MySQL 인스턴스와 같은 다른 시스템간에 데이터를 결합 할 수 있습니다.",
+      "MySQL에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. MySQL을 선택하고 MySQL 환경에 대한 정보를 입력합니다.",
+      "MySQL 연결 세부사항은 case-sensitive일 수 있습니다. 데이터가 MySQL 인스턴스의 올바른 경우로 입력되도록 합니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "MySQL은 쉽게 식별할 수 있는 고유한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "MySQL 계정과 관련된 호스트 이름을 입력하십시오."
+      },
+      "port": { "fieldName": "DB 포트", "description": "3306 비디오" },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "MySQL 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "MySQL 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "연결하려는 데이터베이스 이름을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 MySQL에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 MySQL 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. MySQL 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "NETEZZA": {
+    "detailsText": [
+      "Netezza 커넥터는 Netezza에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. Netezza 및 Hive와 같은 다른 시스템간에 데이터를 빠르게 결합하거나 쉽게 결합 할 수 있습니다. 또는 다른 Netezza 인스턴스 사이에.",
+      "Netezza에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. Netezza를 선택하고 Netezza 환경에 대한 정보를 입력하십시오.",
+      "Netezza 연결 세부사항은 케이스 과민한 일 수 있습니다. 데이터가 Netezza 인스턴스의 올바른 경우로 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "Netezza 연결은 쉽게 식별 할 수있는 독특한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "호스트 이름",
+        "description": "Netezza 계정과 관련된 호스트 이름을 입력하십시오."
+      },
+      "port": {
+        "fieldName": "DB 포트",
+        "description": "액세스하려는 포트 번호를 입력합니다."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "Netezza 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "Netezza 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "연결하려는 Netezza 데이터베이스 이름을 입력하십시오."
+      },
+      "schema": {
+        "fieldName": "사이트맵",
+        "description": "연결하려는 Netezza schema 이름을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 Netezza에서 자동으로 크롤링 및 카탈로그 데이터를 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 Netezza 인스턴스의 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. Netezza 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "SAPHANA": {
+    "detailsText": [
+      "SAPHANA 커넥터는 SAPHANA에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. SAPHANA 및 Hive와 같은 다른 시스템간에 데이터를 신속하게 참여할 수 있습니다. 또는 다른 SAPHANA 인스턴스 사이.",
+      "SAPHANA에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. SAPHANA를 선택하고 SAPHANA 환경에 대한 정보를 입력하십시오.",
+      "SAPHANA 연결 세부사항은 케이스 과민한 일 수 있습니다. SAPHANA 인스턴스의 올바른 경우로 데이터가 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "SAPHANA 연결은 쉽게 식별할 수 있는 고유한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "연결 URL",
+        "description": "연결하려는 SAPHANA 데이터베이스에 URL을 입력하십시오."
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "SAPHANA 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "SAPHANA 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "SAPHANA 데이터베이스 이름을 입력하여 연결할 수 있습니다."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium은 SAPHANA에서 자동 크롤러 및 카탈로그 데이터를 자동으로 검색하고 사용 가능한 데이터를 만듭니다.",
+      "Data 바로가기 메뉴에서 탐색하고 SAPHANA 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. SAPHANA 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "SALESFORCE": {
+    "detailsText": [
+      "SalesForce 커넥터는 SalesForce에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 SalesForce 및 Hive, 또는 다른 SalesForce 인스턴스와 같은 다른 시스템간에 데이터를 빠르고 쉽게 결합 할 수 있습니다.",
+      "SalesForce에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. SalesForce를 선택하고 SalesForce 환경에 대한 정보를 입력하십시오.",
+      "SalesForce 연결 세부사항은 케이스 과민한 일 수 있습니다. SalesForce 인스턴스의 올바른 경우로 데이터가 입력됩니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "SalesForce Connection은 쉽게 식별 할 수있는 독특한 이름을 부여합니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "Salesforce 호스트",
+        "description": "jdbc:dbschema:판매force://tables=all"
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "SalesForce 계정과 관련된 사용자 이름을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "SalesForce 계정과 관련된 암호를 입력하십시오."
+      },
+      "token": {
+        "fieldName": "토큰",
+        "description": "SalesForce 계정과 관련된 토큰 키를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "연결하려는 SalesForce 데이터베이스 이름을 입력하십시오."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium이 자동으로 귀하의 SalesForce에서 데이터를 수집하고, 다음 데이터를 쉽게 검색 할 수 있습니다.",
+      "Data 바로가기 메뉴에서 탐색하고 SalesForce 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. SalesForce 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  },
+  "Servicenow": {
+    "detailsText": [
+      "ServiceNow 커넥터는 SalesForce에서 카탈로그, queried, 변형 및 더 많은 데이터를 허용합니다. 이것은 SalesForce 및 Hive, 또는 다른 SalesForce 인스턴스와 같은 다른 시스템간에 데이터를 빠르고 쉽게 결합 할 수 있습니다.",
+      "ServiceNow에 연결은 빠르고 쉽습니다. Data를 클릭 메뉴의 소스, 다음 클릭 + 새로운 데이터 소스. ServiceNow를 선택하고 ServiceNow 환경에 대한 정보를 입력하십시오.",
+      "ServiceNow 연결 세부사항은 case-sensitive일 수 있습니다. Data가 ServiceNow 인스턴스의 올바른 경우로 입력되도록 합니다."
+    ],
+    "tableData": {
+      "name": {
+        "fieldName": "데이터 소스 이름",
+        "description": "ServiceNow 연결은 쉽게 식별 할 수있는 독특한 이름입니다."
+      },
+      "description": {
+        "fieldName": "이름 *",
+        "description": "옵션. 이 연결에 대한 의미있는 설명."
+      },
+      "host": {
+        "fieldName": "연결 URL",
+        "description": "jdbc:dbschema:판매force://tables=all"
+      },
+      "userName": {
+        "fieldName": "사용자 이름",
+        "description": "연결하려는 ServiceNow 데이터베이스에 URL을 입력하십시오."
+      },
+      "password": {
+        "fieldName": "비밀번호",
+        "description": "SalesForce 계정과 관련된 암호를 입력하십시오."
+      },
+      "databaseName": {
+        "fieldName": "Database 이름",
+        "description": "회사 소개 이제 데이터베이스 이름을 연결하고 싶습니다."
+      }
+    },
+    "afterTableDetails": [
+      "연결 버튼을 클릭하면 Schemas를 선택합니다. 성공적인 연결 및 스키마 선택 Promethium 후 자동으로 귀하의 ServiceNow에서 데이터를 크롤러 및 카탈로그, 다음 데이터를 쉽게 검색 할 수 있습니다.",
+      "Data 바로가기 메뉴에서 탐색을 시작하고 ServiceNow 인스턴스에서 데이터를 탐험하십시오."
+    ],
+    "FAQ": [
+      [
+        "내 데이터가 이동되거나 복사되었습니까?",
+        "아니요. 귀하의 데이터는 Promethium으로 이동되지 않습니다."
+      ],
+      [
+        "데이터셋을 게시하려면 어떤 옵션이 있습니까?",
+        "Datasets는 전망, 테이블 또는 dbt 모형으로 간행될 수 있습니다."
+      ],
+      [
+        "이 생산 수준 연결관은입니까?",
+        "예. ServiceNow 커넥터는 모든 크기의 Datasets를 위해 설계되었습니다."
+      ]
+    ]
+  }
+}
