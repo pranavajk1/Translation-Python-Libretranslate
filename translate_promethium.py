@@ -63,12 +63,18 @@ def translate(text):
 # Loop through the keys in the input data
 for key in input_data.keys():
     # Get the value for the current key
-    if key in official_ko_data.keys():
-        continue
     value = input_data[key]
+    if key in official_ja_data.keys() and type(value) is str and target_lang == 'ja':
+        continue
+    if key in official_ko_data.keys() and type(value) is str and target_lang == 'ko':
+        continue
     if type(value) is not str:
         sub_data = {}
         for sub_key in value.keys():
+            if sub_key in official_ko_data[key].keys() and target_lang == 'ko':
+                continue
+            if sub_key in official_ja_data[key].keys() and target_lang == 'ja':
+                continue
             sub_value = value[sub_key]
             # Send a request to the API with the value
 
@@ -76,6 +82,8 @@ for key in input_data.keys():
             result = translate_text(sub_value, source_lang, target_lang)
             # Add the result to the output data dictionary
             sub_data[sub_key] = result
+        if len(sub_data.keys()) == 0:
+            continue
         output_data[key] = sub_data
     else:
         # result = translate(value)
