@@ -3,15 +3,15 @@ import requests
 from urllib.parse import quote
 
 # Load the input JSON file
-with open('/Users/pranavajk/Translation-Python-Libretranslate/en.json', 'r', encoding='utf-8') as f:
+with open('en.json', 'r', encoding='utf-8') as f:
     input_data = json.load(f)
 
 # Define the API endpoint
 api_endpoint = 'https://translate.pranavajk.com/translate'
 
-official_en = '/Users/pranavajk/Code/Promethium/Node20/pm61datafrontend/public/translations/en.json'
-official_ja = '/Users/pranavajk/Code/Promethium/Node20/pm61datafrontend/public/translations/ja.json'
-official_ko = '/Users/pranavajk/Code/Promethium/Node20/pm61datafrontend/public/translations/ko.json'
+official_en = '../../Promethium/Promethium-Frontend/public/translations/en.json'
+official_ja = '../../Promethium/Promethium-Frontend/public/translations/ja.json'
+official_ko = '../../Promethium/Promethium-Frontend/public/translations/ko.json'
 
 with open(official_en, 'r', encoding='utf-8') as f:
     official_en_data = json.load(f)
@@ -23,8 +23,10 @@ with open(official_ko, 'r', encoding='utf-8') as f:
 output_data = {}
 input_data = official_en_data
 
+print(list(official_ja_data.keys()))
+
 source_lang = 'en'
-target_lang = 'ko'
+target_lang = 'ja'
 
 def translate_text(text, source_lang, target_lang):
     encoded_text = quote(text)
@@ -64,17 +66,21 @@ def translate(text):
 for key in input_data.keys():
     # Get the value for the current key
     value = input_data[key]
-    if key in official_ja_data.keys() and type(value) is str and target_lang == 'ja':
+    if key in list(official_ja_data.keys()) and type(value) is str and target_lang == 'ja':
         continue
-    if key in official_ko_data.keys() and type(value) is str and target_lang == 'ko':
+    if key in list(official_ko_data.keys()) and type(value) is str and target_lang == 'ko':
         continue
     if type(value) is not str:
         sub_data = {}
         for sub_key in value.keys():
-            if sub_key in official_ko_data[key].keys() and target_lang == 'ko':
-                continue
-            if sub_key in official_ja_data[key].keys() and target_lang == 'ja':
-                continue
+            if target_lang == 'ko':
+                if key in list(official_ko_data.keys()):
+                    if sub_key in list(official_ko_data[key].keys()):
+                        continue
+            if target_lang == 'ja':
+                if key in list(official_ja_data.keys()):
+                    if sub_key in list(official_ja_data[key].keys()):
+                        continue
             sub_value = value[sub_key]
             # Send a request to the API with the value
 
@@ -91,5 +97,5 @@ for key in input_data.keys():
         output_data[key] = result
 
 # Dump the output data to a JSON file
-with open(f'/Users/pranavajk/Translation-Python-Libretranslate/{target_lang}.json', 'w', encoding='utf-8') as f:
+with open(f'{target_lang}.json', 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False)
